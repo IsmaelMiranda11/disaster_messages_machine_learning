@@ -1,6 +1,6 @@
 # Disaster Response Pipeline Project
 
-#### Content
+## Content
 1. [Disasters are hard situations](#1)
 2. [Help from Machine Learning](#2)
 3. [The flow](#3)
