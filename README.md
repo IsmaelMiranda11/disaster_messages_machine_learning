@@ -39,7 +39,7 @@ A dataset with messages already categorized is used to train a model. This the f
 
 ## Resources Used <a name="4"></a>
 
-This was created using [python 3.8] (https://www.python.org/downloads/release/python-385/)  
+This was created using [python 3.8](https://www.python.org/downloads/release/python-385/)  
 For the flow, these are libraries used:
 1. Data treatment: [pandas](https://pypi.org/project/pandas/), [sqlachemy](https://pypi.org/project/SQLAlchemy/)
 2. NPL Pipeline: [nlkt](https://pypi.org/project/nltk/), re, [sklearn](https://pypi.org/project/scikit-learn/), pickle
