@@ -33,9 +33,9 @@ Using Natural Language Processing, messages get into a model, and it categorized
 
 A dataset with messages already categorized is used to train a model. This the flow:
 
-1. **Data Treatment: ** the csv files are read, data is clean, merged and export to a database file to be used forward.
-2. **Natural Language Processing Pipeline: ** the database gets into an NLP pipeline in which text is processed (bag of words, lemmatization, tfidf) and a classification model is trained, optimized, evaluated, and exported.
-3. **Deployment: ** a web page is development where the model could be used. An input is offered to write a message. This is processes by model and receive the categories in which that messages fits.
+1. **Data Treatment:** the csv files are read, data is clean, merged and export to a database file to be used forward.
+2. **Natural Language Processing Pipeline:** the database gets into an NLP pipeline in which text is processed (bag of words, lemmatization, tfidf) and a classification model is trained, optimized, evaluated, and exported.
+3. **Deployment:** a web page is development where the model could be used. An input is offered to write a message. This is processes by model and receive the categories in which that messages fits.
 
 ## Resources Used <a name="4"></a>
 
@@ -70,7 +70,7 @@ Folders:
 
 Grid Search was used for scanning best classifiers and parameters.  
 Among Decision Tree, Random Forest and Ridge, Ridge classifier shows best score (based in recall metrics).  
-The general recall of model was 78.91%.  
+The general recall of model was **78.91%**.  
 
 ## Licensing, Authors, and Acknowledgements <a name="6"></a>
 
