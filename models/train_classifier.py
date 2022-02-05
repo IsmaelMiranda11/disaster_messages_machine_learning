@@ -1,7 +1,4 @@
-from distutils.file_util import write_file
 import sys
-from unicodedata import category
-from simplejson import load
 
 # databases
 import pandas as pd
