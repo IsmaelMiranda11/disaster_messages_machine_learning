@@ -5,9 +5,15 @@ import pandas as pd
 from sqlalchemy import create_engine
 import re
 # nltk
+from nltk import download
+# download necessary nltk files
+download('punkt')
+download('stopwords')
+download('wordnet')
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.wordnet import WordNetLemmatizer
+
 
 # sklearn
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
